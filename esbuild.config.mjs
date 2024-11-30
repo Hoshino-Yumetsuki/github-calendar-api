@@ -5,7 +5,9 @@ const options = {
     bundle: true,
     outdir: 'dist',
     minify: true,
-    platform: 'node',
+    format: 'esm',
+    target: 'es2022',
+    platform: 'browser',
     packages: 'external',
 }
 

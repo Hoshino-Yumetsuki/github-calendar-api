@@ -1,0 +1,12 @@
+{
+  "name": "github-calendar-api",
+  "packageManager": "yarn@4.4.1",
+  "scripts": {
+    "build": "node esbuild.config.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0",
+    "esbuild-register": "^3.6.0",
+    "typescript": "^5.7.2"
+  }
+}
